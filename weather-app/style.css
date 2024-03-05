@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar{
+    height: 60px;
+    font-size: 32px;
+    font-weight:700;
+    background-color: blue;
+    color: white;
+}
+
+#search-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:40px;
+    height: 100px;
+    width: 100%;
+}
+
+#search-box{
+    padding:10px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+#content-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+}
+
+#weather-container{
+    height:200px;
+    width: 200px;
+    background-color:rgb(139, 199, 252);
+    display:flex;
+    text-align:center;
+    align-items:center;
+    font-size: 26px;
+    font-weight:700;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 10px;
+}
